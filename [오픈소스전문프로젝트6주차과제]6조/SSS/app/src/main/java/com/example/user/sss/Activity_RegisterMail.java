@@ -23,7 +23,6 @@ public class Activity_RegisterMail extends AppCompatActivity {
         });
     }
     public void goBackPrivate(){
-        Intent intent = new Intent(this, Activity_RegisterMail.class);
-        startActivity(intent);
+        super.onBackPressed();
     }
 }
